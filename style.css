@@ -74,8 +74,6 @@ h2 {
   grid-gap: 1rem;
   margin: 1.25rem auto;
 }
-#board {
-}
 
 .tile {
   display: flex;
@@ -85,8 +83,13 @@ h2 {
   width: 150px;
   font-size: 4rem;
   background-color: rgb(198, 219, 157);
+  border-radius: 3rem;
   /* background: var(--primary-1); */
 }
+
+/* .board:hover:focus {
+  background-color: #800080;
+} */
 
 /* TILE HOVER STATES */
 .👻-hover:hover:after {
@@ -183,12 +186,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 960px) {
-
   .content-container {
     margin-top: 150px;
     overflow-wrap: hidden;
   }
-
 
   .tile {
     /* margin-top: 20px; */
